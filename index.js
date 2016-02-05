@@ -14,14 +14,14 @@ function mermaid(typ, val) {
   }
 
   var cnt = val[1];
-  return pdc.Div([
-    '',
-    ['mermaid'],
-    [],
-  ], [
-    pdc.Plain([
-      pdc.Str(cnt),
+  return pdc.Div(['', [], []], [
+    pdc.RawBlock('html', '<!-- htmlmin:ignore -->'),
+    pdc.Div(['', ['mermaid'], []], [
+      pdc.Plain([
+        pdc.Str(cnt),
+      ]),
     ]),
+    pdc.RawBlock('html', '<!-- htmlmin:ignore -->'),
   ]);
 }
 

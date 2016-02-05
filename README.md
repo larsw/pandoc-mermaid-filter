@@ -21,6 +21,8 @@ graph TD;
 ##### Output HTML
 
 ```html
+<div>
+<!-- htmlmin:ignore -->
 <div class="mermaid">
 graph TD;
     A--&gt;B;
@@ -28,9 +30,13 @@ graph TD;
     B--&gt;D;
     C--&gt;D;
 </div>
+<!-- htmlmin:ignore -->
+</div>
 ```
 
-NOTICE: pandoc escaped `>` to `&gt;`. But no problem!
+pandoc escaped `>` to `&gt;` but no problem.
+
+`<!-- htmlmin:ignore -->` prevent that [HTMLMinifier](https://kangax.github.io/html-minifier/) remove the whitespaces.
 
 ### Usage
 
