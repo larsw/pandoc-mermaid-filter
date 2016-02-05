@@ -9,7 +9,7 @@ function mermaid(typ, val) {
   }
 
   var cls = val[0][1];
-  if (0 <= cls.indexOf('mermaid')) {
+  if (0 > cls.indexOf('mermaid')) {
     return null;
   }
 
