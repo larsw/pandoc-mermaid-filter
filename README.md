@@ -55,7 +55,7 @@ $ pandoc -D html5 > template.html
 ##### Global install with npm
 
 ``` shell
-$ npm install --global git+https://github.com/nishimaki10/pandoc-mermaid-filter.git
+$ npm install --global pandoc-mermaid-filter
 ```
 
 Executable filename is `pandoc-mermaid`.
