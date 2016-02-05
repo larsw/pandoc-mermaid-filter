@@ -1,0 +1,30 @@
+{
+  "name": "pandoc-mermaid-filter",
+  "version": "0.1.0",
+  "description": "mermaid filter for pandoc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nishimaki10/pandoc-mermaid-filter.git"
+  },
+  "keywords": [
+    "pandoc",
+    "mermaid"
+  ],
+  "author": "Maki Nishifuji",
+  "license": "MIT",
+  "preferGlobal": true,
+  "bin": {
+    "pandoc-mermaid": "index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/nishimaki10/pandoc-mermaid-filter/issues"
+  },
+  "homepage": "https://github.com/nishimaki10/pandoc-mermaid-filter#readme",
+  "dependencies": {
+    "pandoc-filter": "^0.1.3"
+  }
+}
