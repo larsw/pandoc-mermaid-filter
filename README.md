@@ -22,11 +22,11 @@ graph TD;
 
 ```html
 <div class="mermaid">
-graph LR
-    A--&gt;B
-    B--&gt;C
-    C--&gt;A
-    D--&gt;C
+graph TD;
+    A--&gt;B;
+    A--&gt;C;
+    B--&gt;D;
+    C--&gt;D;
 </div>
 ```
 
