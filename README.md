@@ -8,7 +8,7 @@ Tested on pandoc `1.16.0.2` and Node.js `v5.5.0`.
 
 ##### Input markdown
 
-<pre>
+<pre><code>
 ```mermaid
 graph TD;
     A-->B;
@@ -16,7 +16,7 @@ graph TD;
     B-->D;
     C-->D;
 ```
-</pre>
+</code></pre>
 
 ##### Output HTML
 
