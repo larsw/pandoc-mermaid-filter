@@ -2,6 +2,8 @@
 
 `pandoc-mermaid-filter` is [mermaid](http://knsv.github.io/mermaid/) filter for [pandoc](http://pandoc.org/).
 
+Tested on pandoc `1.16.0.2` and Node.js `v5.5.0`.
+
 ### Feature
 
 ##### Input markdown
