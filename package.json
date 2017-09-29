@@ -25,6 +25,6 @@
   },
   "homepage": "https://github.com/nishimaki10/pandoc-mermaid-filter#readme",
   "dependencies": {
-    "pandoc-filter": "^0.1.3"
+    "pandoc-filter": "^0.1.8"
   }
 }
